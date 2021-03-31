@@ -1,0 +1,33 @@
+{
+   "vetur.format.enable": true,
+   "eslint.validate": ["javascript"],
+   "prettier.jsxBracketSameLine": true,
+   "editor.formatOnSaveMode": "file",
+   "editor.formatOnSave": true,
+   "vetur.grammar.customBlocks": {
+      "docs": "md",
+      "i18n": "json"
+   },
+   "tsimporter.preferRelative": true,
+   "vetur.validation.templateProps": true,
+   "explorer.compactFolders": false,
+   "prettier.quoteProps": "consistent",
+   "prettier.requireConfig": true,
+   "prettier.useTabs": true,
+   "vetur.format.options.tabSize": 3,
+   "editor.tabSize": 3,
+   "vetur.format.defaultFormatter.html": "js-beautify-html",
+   "vetur.completion.autoImport": false,
+   "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+         "indent-size": 3,
+         "indent-char": " ",
+         "preserve-newlines": true,
+         "max-preserve-newlines": 1,
+         "wrap-line-length": 0,
+         "wrap-attributes": "preserve-aligned",
+         "indent-empty-lines": true,
+         "inline": "translate"
+      }
+   }
+}
